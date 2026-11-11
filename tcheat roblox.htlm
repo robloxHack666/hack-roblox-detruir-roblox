@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le site de triche Roblox et Fortnite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        h1 {
+            color: #ff3333;
+            font-size: 2.5em;
+        }
+
+        .main-button-container {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        .btn-hack {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+            background-color: #e50914;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-hack:hover {
+            transform: scale(1.05);
+            background-color: #ff1e28;
+        }
+
+        .games-section {
+            max-width: 1000px;
+            width: 90%;
+            margin-bottom: 50px;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .game-card {
+            background-color: #1f1f1f;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 15px; /* Rectangle arrondi */
+            margin-bottom: 15px;
+        }
+
+        .game-title {
+            font-size: 1.4em;
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        .game-desc {
+            font-size: 1em;
+            color: #cccccc;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Le site de triche Roblox et Fortnite</h1>
+    </header>
+
+    <div class="main-button-container">
+        <a href="https://policies-rolling-transcription-sports.trycloudflare.com" class="btn-hack">COMMENCER A HACK</a>
+    </div>
+
+    <section class="games-section">
+        <div class="games-grid">
+            
+            <!-- Jeu : Vole un oeuf -->
+            <div class="game-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WrtNlZFxxtqOm1y2xfRnDJtjB-i__Z4hghdOSDxkFQ&s=10" alt="Vole un oeuf">
+                <div class="game-title">Vole un oeuf</div>
+                <div class="game-desc">Le meiiller tcheat pour faire spwn les meilleur oeuf</div>
+            </div>
+
+            <!-- Jeu : Blox Fruit -->
+            <div class="game-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-EiF30RmSG4n8mLyAV_l63YTz3mPmdCL5v_Gub-2_Q&s=10" alt="Blox Fruit">
+                <div class="game-title">Blox Fruit</div>
+                <div class="game-desc"></div>
+            </div>
+
+            <!-- Jeu : Steal a brainrot -->
+            <div class="game-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV1pDjUL0pPzw9yiB-199PU6MBxxIbCgEE6Qb6reU7IQ&s" alt="Steal a brainrot">
+                <div class="game-title">Steal a brainrot</div>
+                <div class="game-desc">Le meilleur tcheat pour voller dans la mape et faire spawn des brainrot et gagner un maxe de personne en duel</div>
+            </div>
+
+            <!-- Jeu : Rivals -->
+            <div class="game-card">
+                <!-- Remplacement par l'image par défaut fournie dans vos liens -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WrtNlZFxxtqOm1y2xfRnDJtjB-i__Z4hghdOSDxkFQ&s=10" alt="Rivals">
+                <div class="game-title">Rivals</div>
+                <div class="game-desc">Le meilleur tcheat aimbot</div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
